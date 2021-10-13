@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Details</h1>
+    <p>Address: 625/2K Morton Street, Parramatta - 2150</p>
+    <p>Phone: +61 401 141 899</p>
+    <p>Email: freezysunny@gmail.com</p>
+    <br>
+    <h2>Please enter the below details:</h2>
+    <!--
+    <form class="" action="index.html" method="post">
+    -->
+    <form action="mailto:freezysunny@gmail.com?subject=Thank you for subscribing. Your details below.!" method="post">
+      <label><strong>First Name:</strong></label>
+      <input type="text" name="First Name" value="">
+      <label><strong>&nbsp;Middle Name:</strong></label>
+      <input type="text" name="Middle Name" value="">
+      <label><strong>&nbsp;Surname:</strong></label>
+      <input type="text" name="Surname" value=""><br><br>
+      <label><strong>Enter your Date of Birth:</strong></label>
+      <input type="date" name="Date of Birth" value=""><br><br>
+      <label><strong>Please tick the box if you want to subscribe for latest updates:</strong></label>
+      <input type="checkbox" name="Subscription" value=""><br><br>
+      <label for="fname"><strong>Upload contact card:</strong></label>
+      <input type="file" name="Your Files" value="Choose file"><br><br>
+      <label for="textname"><strong><em>Please enter any additional comments:</em></strong></label><br><br>
+      <textarea name="Your Message: " rows="10" cols="30"></textarea><br><br><br><br>
+      <input type="submit" name="" value="Submit">
+      <input type="submit" name="" value="Cancel">
+    </form>
+  </body>
+</html>
